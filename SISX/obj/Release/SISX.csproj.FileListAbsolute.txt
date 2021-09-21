@@ -1,0 +1,8 @@
+B:\online\SisXplorer\SISX\bin\Release\SISX.dll
+B:\online\SisXplorer\SISX\bin\Release\SISX.pdb
+B:\online\SisXplorer\SISX\bin\Release\Utility.dll
+B:\online\SisXplorer\SISX\bin\Release\zlib.net.dll
+B:\online\SisXplorer\SISX\bin\Release\Utility.pdb
+B:\online\SisXplorer\SISX\obj\Release\ResolveAssemblyReference.cache
+B:\online\SisXplorer\SISX\obj\Release\SISX.dll
+B:\online\SisXplorer\SISX\obj\Release\SISX.pdb

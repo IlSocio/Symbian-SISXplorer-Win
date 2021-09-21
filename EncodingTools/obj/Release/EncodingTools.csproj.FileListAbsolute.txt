@@ -1,0 +1,5 @@
+B:\online\SisXplorer\EncodingTools\bin\Release\EncodingTools.dll
+B:\online\SisXplorer\EncodingTools\bin\Release\EncodingTools.pdb
+B:\online\SisXplorer\EncodingTools\obj\Release\ResolveAssemblyReference.cache
+B:\online\SisXplorer\EncodingTools\obj\Release\EncodingTools.dll
+B:\online\SisXplorer\EncodingTools\obj\Release\EncodingTools.pdb

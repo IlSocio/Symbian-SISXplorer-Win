@@ -1,0 +1,8 @@
+bin\Debug\SISX.dll
+bin\Debug\SISX.pdb
+bin\Debug\Utility.dll
+bin\Debug\zlib.net.dll
+bin\Debug\Utility.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SISX.dll
+obj\Debug\SISX.pdb

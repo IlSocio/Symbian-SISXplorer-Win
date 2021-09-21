@@ -1,0 +1,16 @@
+C:\online\SisXplorer\SISX\bin\Debug\SISX.dll
+C:\online\SisXplorer\SISX\bin\Debug\SISX.pdb
+C:\online\SisXplorer\SISX\bin\Debug\Utility.dll
+C:\online\SisXplorer\SISX\bin\Debug\zlib.net.dll
+C:\online\SisXplorer\SISX\bin\Debug\Utility.pdb
+C:\online\SisXplorer\SISX\obj\Debug\ResolveAssemblyReference.cache
+C:\online\SisXplorer\SISX\obj\Debug\SISX.dll
+C:\online\SisXplorer\SISX\obj\Debug\SISX.pdb
+B:\online\SisXplorer\SISX\obj\Debug\ResolveAssemblyReference.cache
+B:\online\SisXplorer\SISX\obj\Debug\SISX.dll
+B:\online\SisXplorer\SISX\bin\Debug\SISX.dll
+B:\online\SisXplorer\SISX\bin\Debug\SISX.pdb
+B:\online\SisXplorer\SISX\bin\Debug\Utility.dll
+B:\online\SisXplorer\SISX\bin\Debug\zlib.net.dll
+B:\online\SisXplorer\SISX\bin\Debug\Utility.pdb
+B:\online\SisXplorer\SISX\obj\Debug\SISX.pdb

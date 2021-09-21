@@ -1,0 +1,16 @@
+obj\Debug\test.exe
+obj\Debug\test.pdb
+bin\Debug\bw8bit.bmp
+bin\Debug\col8bit.bmp
+bin\Debug\test.exe
+bin\Debug\test.pdb
+bin\Debug\EncodingTools.dll
+bin\Debug\EpocFile.dll
+bin\Debug\Utility.dll
+bin\Debug\EpocFile.pdb
+bin\Debug\Utility.pdb
+bin\Debug\EncodingTools.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\test.Form1.resources
+obj\Debug\test.Properties.Resources.resources
+obj\Debug\TestSVGB.csproj.GenerateResource.Cache

@@ -1,0 +1,103 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5547B80-3869-4BDE-89A7-4CD5957F3D61}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISX</RootNamespace>
+    <AssemblyName>SISX</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zlib.net, Version=1.0.2.0, Culture=neutral, PublicKeyToken=47d7877cb3620160">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\zlib.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fields\SISSignatureAlgorithm.cs" />
+    <Compile Include="Fields\SISCertificateChain.cs" />
+    <Compile Include="Fields\SISSignature.cs" />
+    <Compile Include="Fields\SISElseIf.cs" />
+    <Compile Include="Fields\SISExpression.cs" />
+    <Compile Include="Fields\SISIf.cs" />
+    <Compile Include="Fields\SISBlob.cs" />
+    <Compile Include="Fields\SISHash.cs" />
+    <Compile Include="Fields\SISCapabilities.cs" />
+    <Compile Include="Fields\SISFileDescription.cs" />
+    <Compile Include="Fields\SISProperty.cs" />
+    <Compile Include="Fields\SISLanguage.cs" />
+    <Compile Include="Fields\SISSupportedOption.cs" />
+    <Compile Include="Fields\SISVersionRange.cs" />
+    <Compile Include="Fields\SISDependency.cs" />
+    <Compile Include="Fields\SISDate.cs" />
+    <Compile Include="Fields\SISTime.cs" />
+    <Compile Include="Fields\SISDateTime.cs" />
+    <Compile Include="Fields\SISVersion.cs" />
+    <Compile Include="Fields\SISString.cs" />
+    <Compile Include="Fields\SISUid.cs" />
+    <Compile Include="Fields\SISDataIndex.cs" />
+    <Compile Include="Fields\SISSignatureCertificateChain.cs" />
+    <Compile Include="Fields\SISInstallBlock.cs" />
+    <Compile Include="Fields\SISLogo.cs" />
+    <Compile Include="Fields\SISProperties.cs" />
+    <Compile Include="Fields\SISPrerequisites.cs" />
+    <Compile Include="Fields\SISSupportedLanguages.cs" />
+    <Compile Include="Fields\SISSupportedOptions.cs" />
+    <Compile Include="Fields\SISInfo.cs" />
+    <Compile Include="Fields\SISFileData.cs" />
+    <Compile Include="Fields\SISDataUnit.cs" />
+    <Compile Include="SISXUnpacker.cs" />
+    <Compile Include="SISXFile.cs" />
+    <Compile Include="Fields\SISArray.cs" />
+    <Compile Include="Fields\SISCompressed.cs" />
+    <Compile Include="Fields\SISContent.cs" />
+    <Compile Include="Fields\SISController.cs" />
+    <Compile Include="Fields\SISControllerChecksum.cs" />
+    <Compile Include="Fields\SISData.cs" />
+    <Compile Include="Fields\SISDataChecksum.cs" />
+    <Compile Include="Fields\SISField.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{591E4E27-CCEE-404B-A82C-46D5EB2F11DB}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

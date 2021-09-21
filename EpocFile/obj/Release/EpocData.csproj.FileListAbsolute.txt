@@ -1,0 +1,11 @@
+B:\online\SisXplorer\EpocFile\obj\Release\ResolveAssemblyReference.cache
+B:\online\SisXplorer\EpocFile\bin\Release\bw8bit.bmp
+B:\online\SisXplorer\EpocFile\bin\Release\col8bit.bmp
+B:\online\SisXplorer\EpocFile\bin\Release\EpocFile.dll
+B:\online\SisXplorer\EpocFile\bin\Release\EpocFile.pdb
+B:\online\SisXplorer\EpocFile\bin\Release\EncodingTools.dll
+B:\online\SisXplorer\EpocFile\bin\Release\Utility.dll
+B:\online\SisXplorer\EpocFile\bin\Release\Utility.pdb
+B:\online\SisXplorer\EpocFile\bin\Release\EncodingTools.pdb
+B:\online\SisXplorer\EpocFile\obj\Release\EpocFile.dll
+B:\online\SisXplorer\EpocFile\obj\Release\EpocFile.pdb

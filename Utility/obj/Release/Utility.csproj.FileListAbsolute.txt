@@ -1,0 +1,5 @@
+B:\online\SisXplorer\Utility\bin\Release\Utility.dll
+B:\online\SisXplorer\Utility\bin\Release\Utility.pdb
+B:\online\SisXplorer\Utility\obj\Release\ResolveAssemblyReference.cache
+B:\online\SisXplorer\Utility\obj\Release\Utility.dll
+B:\online\SisXplorer\Utility\obj\Release\Utility.pdb

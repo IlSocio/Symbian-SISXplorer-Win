@@ -1,0 +1,367 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{178F9877-DB50-4F1C-9879-6CFB8F3763E6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISXplorer</RootNamespace>
+    <AssemblyName>SISXplorer</AssemblyName>
+    <ApplicationIcon>ICONAWHITE.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AbstractCtrl.Designer.cs">
+      <DependentUpon>AbstractCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvToolTip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AdvToolTip.Designer.cs">
+      <DependentUpon>AdvToolTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BinaryView.cs" />
+    <Compile Include="ConfigSettings.cs" />
+    <Compile Include="FrmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptions.Designer.cs">
+      <DependentUpon>FrmOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlRSC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlRSC.Designer.cs">
+      <DependentUpon>CtrlRSC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlText.Designer.cs">
+      <DependentUpon>CtrlText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlBox.Designer.cs">
+      <DependentUpon>CtrlBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlE32Img.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlE32Img.Designer.cs">
+      <DependentUpon>CtrlE32Img.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlHex.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlHex.Designer.cs">
+      <DependentUpon>CtrlHex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlInfoFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlInfoFile.Designer.cs">
+      <DependentUpon>CtrlInfoFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlInfoSISX.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlInfoSISX.Designer.cs">
+      <DependentUpon>CtrlInfoSISX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlPreviewImages.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlPreviewImages.Designer.cs">
+      <DependentUpon>CtrlPreviewImages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlShowCapab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlShowCapab.Designer.cs">
+      <DependentUpon>CtrlShowCapab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlThumb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlThumb.Designer.cs">
+      <DependentUpon>CtrlThumb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlTree.Designer.cs">
+      <DependentUpon>CtrlTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlUniRes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlUniRes.Designer.cs">
+      <DependentUpon>CtrlUniRes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgExtract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgExtract.Designer.cs">
+      <DependentUpon>DlgExtract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlThumbList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlThumbList.Designer.cs">
+      <DependentUpon>CtrlThumbList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registry.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdvToolTip.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AdvToolTip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOptions.resx">
+      <DependentUpon>FrmOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlRSC.resx">
+      <DependentUpon>CtrlRSC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlText.resx">
+      <DependentUpon>CtrlText.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlE32Img.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlE32Img.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlHex.resx">
+      <DependentUpon>CtrlHex.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlInfoFile.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlInfoFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlInfoSISX.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlInfoSISX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlPreviewImages.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlPreviewImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlShowCapab.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlShowCapab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlThumb.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlThumb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlThumbList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlThumbList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlTree.resx">
+      <DependentUpon>CtrlTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlUniRes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CtrlUniRes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgExtract.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DlgExtract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RecentList.cs" />
+    <Compile Include="ScreenCapture.cs" />
+    <Compile Include="SISEntry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EncodingTools\EncodingTools.csproj">
+      <Project>{CA19D4DE-B232-491A-92BF-7BF3A2758694}</Project>
+      <Name>EncodingTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EpocFile\EpocData.csproj">
+      <Project>{81C1A4D6-F50E-46F9-AD1C-DADE9F0A63CF}</Project>
+      <Name>EpocData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISX\SISX.csproj">
+      <Project>{F5547B80-3869-4BDE-89A7-4CD5957F3D61}</Project>
+      <Name>SISX</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{591E4E27-CCEE-404B-A82C-46D5EB2F11DB}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPEN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TREEVIEW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLOSEALL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESCTRACTALL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABOUTa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Engine.dll" />
+    <Content Include="ICONAWHITE.ico" />
+    <Content Include="RenesisX.dll" />
+    <None Include="Resources\ExtrImgAll.png" />
+    <None Include="Resources\ExtrImg.png" />
+    <None Include="Resources\prev.png" />
+    <None Include="Resources\oneframe.png" />
+    <None Include="Resources\next.png" />
+    <None Include="Resources\allframes.png" />
+    <None Include="Resources\recent1.png" />
+    <None Include="Resources\open1.png" />
+    <None Include="Resources\donation1.png" />
+    <None Include="Resources\about1.png" />
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxRenesisXLib">
+      <Guid>{6F6C7CD8-4236-447A-83BA-A882EAD655A7}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="RenesisXLib">
+      <Guid>{6F6C7CD8-4236-447A-83BA-A882EAD655A7}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

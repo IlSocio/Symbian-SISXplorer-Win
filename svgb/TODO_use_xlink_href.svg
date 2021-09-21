@@ -1,0 +1,51 @@
+<svg id="svg-root" width="450" height="450" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" >
+     <title id="test-title">text-textOnPath-BE-03</title>
+     <desc id="test-desc">Test viewer capability to handle the basics of 'textPath'.</desc>
+     <g id="test-body-content">
+          <defs>
+               <path id="Path1" style="fill:none;stroke:blue;" d="M199 89.3 C206.6 66.6 235.8 13.2 270 30.3 286.6 38.6 298.9 59.4 310 73.3 321.7 87.9 338.6 99 356 103.3 387.3 111.1 396.6 90.4 418 74.3"/>
+               <path id="Path2" style="fill:none;stroke:blue;" d="M33.5 145.8 C41 123 70.3 69.7 104.5 86.8 121 95 133 116 144.5 129.8 156.2 144.4 173 155.5 190.5 159.8 221.8 167.6 231 146.9 252.5 130.8"/>
+               <path id="Path3" style="fill:none;stroke:blue;stroke-width:4;" d="M113 263 L413 263 "/>
+          </defs>
+          <g id="text-on-path-01">
+               <use  style="fill:none;stroke:blue;" xlink:href="#Path1"/>
+               <text style="font-family:Garamond;font-size:36;fill:black;">
+                    <textPath xlink:href="#Path1">Text on a path</textPath>
+               </text>
+          </g>
+          <g id="text-on-path-02">
+               <use xlink:href="#Path2" style="fill:none;stroke:blue;"/>
+               <text style="font-family:Garamond;font-size:36;fill:black;">
+                    <textPath xlink:href="#Path2">
+                         <tspan dy="-12" style="fill:red;">Te</tspan>
+                         <tspan dy="12">x</tspan>t on a path
+                    </textPath>
+               </text>
+               <rect x="17" y="169" width="274" height="41" style="fill:none;stroke:black;"/>
+               <text x="19" y="179" style="font-size:10;font-family:Helvetica;">'tspan' subelement inside the 'textPath' element. The 'tspan'</text>
+               <text x="19" y="191" style="font-size:10;font-family:Helvetica;">changes both the text color and text position.</text>
+          </g>
+          <g id="text-on-path-03">
+               <use xlink:href="#Path3" style="fill:none;stroke:blue;stroke-width:4;"/>
+               <text style="font-size:24;font-family:Arial;fill:black;">
+                    <textPath xlink:href="#Path3" startOffset="33%">The Text on path</textPath>
+               </text>
+               <rect x="118" y="288" width="260" height="41" style="fill:none;stroke:black;"/>
+               <text x="120" y="298" style="font-size:10;font-family:Helvetica;">'startOffset' attribute of the 'textPath' element. It specifies</text>
+               <text x="120" y="310.933563" style="font-size:10;font-family:Helvetica;">the start position of the text string as a particular position</text>
+               <text x="120" y="322.933533" style="font-size:10;font-family:Helvetica;">along the path.</text>
+          </g>
+     </g>
+     <g id="test-legend" style="fill:black;font-family:Helvetica;font-size:10;">
+          <rect x="10" y="390" width="275" height="50" style="fill:none;stroke:#000000;"/>
+          <path style="fill:none;stroke:#000000;" d="M10 405 h275 M205 405 v35 M10 426 h195 M205 422 h80"/>
+          <text x="25" y="401">Scalable Vector Graphics (SVG) Conformance Suite</text>
+          <a xlink:href="copyright-documents-19990405.html">
+               <text x="12" y="437" style="fill:blue;">Copyright 2000 W3C. All Rights Reserved.</text>
+          </a>
+          <text style="font-size:12;" x="35" y="420">text-textOnPath-BE-03</text>
+          <text style="font-size:10;" x="210" y="417">$Revision: 1.1 $</text>
+          <text style="font-size:10;" x="210" y="435">Release 2.0</text>
+          <rect id="test-frame" x="1" y="1" width="448" height="448" style="fill:none;stroke:#000000;"/>
+     </g>
+</svg>

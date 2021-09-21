@@ -1,0 +1,217 @@
+/**********************************/
+ELEMENTI
+/**********************************/
+
+a  	http://www.w3.org/TR/SVG11/linking.html#AElement
+animate 	http://www.w3.org/TR/SVG11/animate.html#AnimateElement
+animateColor 	http://www.w3.org/TR/SVG11/animate.html#AnimateColorElement
+animateMotion 	http://www.w3.org/TR/SVG11/animate.html#AnimateMotionElement
+animateTransform 	http://www.w3.org/TR/SVG11/animate.html#AnimateTransformElement
+audio 	http://www.w3.org/TR/SVG12/#audio-element
+circle 	http://www.w3.org/TR/SVG11/shapes.html#CircleElement
+defs 	http://www.w3.org/TR/SVG11/struct.html#DefsElement
+desc 	http://www.w3.org/TR/SVG11/struct.html#DescElement
+ellipse 	http://www.w3.org/TR/SVG11/shapes.html#EllipseElement
+flowPara 	http://www.w3.org/TR/SVG12/#flowPara-elem
+flowRegion 	http://www.w3.org/TR/SVG12/#flowRegion-elem
+flowRoot 	http://www.w3.org/TR/SVG12/#flowRoot-elem
+flowSpan 	http://www.w3.org/TR/SVG12/#flowSpan-elem
+font 	http://www.w3.org/TR/SVG11/fonts.html#FontElement
+font-face 	http://www.w3.org/TR/SVG11/fonts.html#FontFaceElement
+font-face-name 	http://www.w3.org/TR/SVG11/fonts.html#FontFaceNameElement
+font-face-src 	http://www.w3.org/TR/SVG11/fonts.html#FontFaceSrcElement
+font-face-uri 	http://www.w3.org/TR/SVG11/fonts.html#FontFaceNameElement
+foreignObject 	http://www.w3.org/TR/SVG11/extend.html#ForeignObjectElement
+g 	http://www.w3.org/TR/SVG11/struct.html#GElement
+glyph 	http://www.w3.org/TR/SVG11/fonts.html#GlyphElement
+handler 	http://www.w3.org/TR/SVG12/#handler-element
+hkern 	http://www.w3.org/TR/SVG11/fonts.html#HKernElement
+image 	http://www.w3.org/TR/SVG11/struct.html#ImageElement
+line 	http://www.w3.org/TR/SVG11/shapes.html#LineElement
+linearGradient 	http://www.w3.org/TR/SVG11/pservers.html#LinearGradientElement
+metadata 	http://www.w3.org/TR/SVG11/metadata.html#MetadataElement
+missing-glyph 	http://www.w3.org/TR/SVG11/fonts.html#MissingGlyphElement
+mpath 	http://www.w3.org/TR/SVG11/animate.html#mpathElement
+page 	http://www.w3.org/TR/SVG12/#page-element
+pageSet 	http://www.w3.org/TR/SVG12/#pageSet-element
+path 	http://www.w3.org/TR/SVG11/paths.html#PathElement
+polygon 	http://www.w3.org/TR/SVG11/shapes.html#PolygonElement
+polyline 	http://www.w3.org/TR/SVG11/shapes.html#PolylineElement
+prefetch 	http://www.w3.org/TR/SVG12/#prefetch-element
+radialGradient 	http://www.w3.org/TR/SVG11/pservers.html#RadialGradientElement
+rect 	http://www.w3.org/TR/SVG11/shapes.html#RectElement
+script 	http://www.w3.org/TR/SVG11/script.html#ScriptElement
+set 	http://www.w3.org/TR/SVG11/animate.html#SetElement
+solidColor 	http://www.w3.org/TR/SVG12/#solidColor-elem
+stop 	http://www.w3.org/TR/SVG11/pservers.html#StopElement
+svg 	http://www.w3.org/TR/SVG11/struct.html#SVGElement
+switch 	http://www.w3.org/TR/SVG11/struct.html#SwitchElement
+text 	http://www.w3.org/TR/SVG11/text.html#TextElement
+title 	http://www.w3.org/TR/SVG11/struct.html#TitleElement
+transition 	http://www.w3.org/TR/SVG12/#transition-element
+tspan 	http://www.w3.org/TR/SVG11/text.html#TSpanElement
+use 	http://www.w3.org/TR/SVG11/struct.html#UseElement
+video 	http://www.w3.org/TR/SVG12/#video-element
+
+
+
+
+/**********************************/
+ATTRIBUTI
+/**********************************/
+
+accent-height  	font-face
+accumulate 	animate | animateColor | animateMotion | animateTransform
+additive 	animate | animateColor | animateMotion | animateTransform
+alphabetic 	font-face
+arabic-form 	glyph
+ascent 	font-face
+attributeName 	animate | animateColor | animateTransform | set
+attributeType 	animate | animateColor | animateTransform | set
+audio-level 	audio | video
+background-fill 	foreignObject | image | svg | video
+background-fill-opacity 	foreignObject | image | svg | video
+bandwidth 	prefetch
+baseProfile 	svg
+bbox 	font-face
+begin 	animate | animateColor | animateMotion | animateTransform | audio | page | set | video
+by 	animate | animateColor | animateMotion | animateTransform
+calcMode 	animate | animateColor | animateMotion | animateTransform
+cap-height 	font-face
+color 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | linearGradient | missing-glyph | page | pageSet | path | polygon | polyline | radialGradient | rect | solidColor | stop | svg | switch | text | tspan | use
+color-rendering 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | linearGradient | missing-glyph | page | pageSet | path | polygon | polyline | radialGradient | rect | solidColor | stop | svg | switch | text | tspan | use
+contentScriptType 	svg
+contentStyleType 	svg
+cx 	circle | ellipse | radialGradient
+cy 	circle | ellipse | radialGradient
+d 	glyph | missing-glyph | path
+descent 	font-face
+direction 	transition
+display 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use | video
+dur 	animate | animateColor | animateMotion | animateTransform | audio | page | set | transition | video
+editable 	flowPara | text
+end 	animate | animateColor | animateMotion | animateTransform | audio | page | set | video
+endProgress 	transition
+ev:event 	handler
+externalResourcesRequired 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | ellipse | font | foreignObject | g | image | line | linearGradient | mpath | path | polygon | polyline | radialGradient | rect | script | set | solidColor | svg | switch | text | use | video
+fadeColor 	transition
+fill 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | set | svg | switch | text | tspan | use | video
+fill-opacity 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use | video
+fill-rule 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use
+focusable 	a | audio | circle | ellipse | flowPara | flowRoot | flowSpan | foreignObject | g | image | line | page | path | polygon | polyline | rect | svg | text | use | video
+font-family 	a | defs | flowPara | flowRoot | flowSpan | font | font-face | foreignObject | g | glyph | missing-glyph | page | pageSet | svg | switch | text | tspan | use
+font-size 	a | defs | flowPara | flowRoot | flowSpan | font | font-face | foreignObject | g | glyph | missing-glyph | page | pageSet | svg | switch | text | tspan | use
+font-stretch 	font-face
+font-style 	a | defs | flowPara | flowRoot | flowSpan | font | font-face | foreignObject | g | glyph | missing-glyph | page | pageSet | svg | switch | text | tspan | use
+font-variant 	font-face
+font-weight 	a | defs | flowPara | flowRoot | flowSpan | font | font-face | foreignObject | g | glyph | missing-glyph | page | pageSet | svg | switch | text | tspan | use
+from 	animate | animateColor | animateMotion | animateTransform
+g1 	hkern
+g2 	hkern
+glyph-name 	glyph
+gradientUnits 	linearGradient | radialGradient
+hanging 	font-face
+height 	foreignObject | image | rect | svg | use | video
+horiz-adv-x 	font | glyph | missing-glyph
+horiz-origin-x 	font
+horiz-origin-y 	font
+id 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | desc | ellipse | flowPara | flowRegion | flowRoot | flowSpan | font | font-face | font-face-name | font-face-src | font-face-uri | foreignObject | g | glyph | handler | hkern | image | line | linearGradient | metadata | missing-glyph | mpath | page | pageSet | path | polygon | polyline | prefetch | radialGradient | rect | script | set | solidColor | stop | svg | switch | text | title | transition | tspan | use | video
+ideographic 	font-face
+image-rendering 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use | video
+k 	hkern
+keyPoints 	animateMotion
+keySplines 	animate | animateColor | animateMotion | animateTransform
+keyTimes 	animate | animateColor | animateMotion | animateTransform
+lang 	glyph
+mathematical 	font-face
+max 	animate | animateColor | animateMotion | animateTransform | audio | page | set | video
+mediaEncodings 	prefetch
+mediaSize 	prefetch
+mediaTime 	prefetch
+min 	animate | animateColor | animateMotion | animateTransform | audio | page | set | video
+name 	font-face-name
+nav-index 	a | audio | circle | ellipse | flowPara | flowRoot | flowSpan | foreignObject | g | image | line | page | path | polygon | polyline | rect | svg | text | use | video
+offset 	stop
+orientation 	glyph
+origin 	animateMotion
+overflow 	svg | image
+overline-position 	font-face
+overline-thickness 	font-face
+page-orientation 	page
+panose-1 	font-face
+path 	animateMotion
+pathLength 	path
+pointer-events 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use | video
+points 	polygon | polyline
+preserveAspectRatio 	image | page | svg | video
+r 	circle | radialGradient
+repeatCount 	animate | animateColor | animateMotion | animateTransform | audio | page | set | video
+repeatDur 	animate | animateColor | animateMotion | animateTransform | audio | page | set | video
+requiredExtensions 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | ellipse | foreignObject | g | image | line | path | polygon | polyline | rect | set | svg | switch | text | tspan | use | video
+requiredFeatures 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | ellipse | foreignObject | g | image | line | path | polygon | polyline | rect | set | svg | switch | text | tspan | use | video
+requiredFormats 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | ellipse | foreignObject | g | image | line | path | polygon | polyline | rect | set | svg | switch | text | tspan | use | video
+restart 	animate | animateColor | animateMotion | animateTransform | audio | page | set | video
+rotate 	animateMotion | text
+rx 	ellipse | rect
+ry 	ellipse | rect
+shape-rendering 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use | video
+slope 	font-face
+solid-color 	solidColor
+solid-opacity 	solidColor
+startProgress 	transition
+stemh 	font-face
+stemv 	font-face
+stop-color 	a | defs | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | linearGradient | missing-glyph | page | pageSet | radialGradient | stop | svg | switch | use
+stop-opacity 	a | defs | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | linearGradient | missing-glyph | page | pageSet | radialGradient | stop | svg | switch | use
+strikethrough-position 	font-face
+strikethrough-thickness 	font-face
+stroke 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use
+stroke-dasharray 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use
+stroke-dashoffset 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use
+stroke-linecap 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use
+stroke-linejoin 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use
+stroke-miterlimit 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use
+stroke-opacity 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use | video
+stroke-width 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use
+subtype 	transition
+systemLanguage 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | ellipse | foreignObject | g | image | line | path | polygon | polyline | rect | set | svg | switch | text | tspan | use | video
+target 	a
+text-rendering 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use | video
+to 	animate | animateColor | animateMotion | animateTransform | set
+type 	animateTransform | handler | script | transition
+u1 	hkern
+u2 	hkern
+underline-position 	font-face
+underline-thickness 	font-face
+unicode 	glyph
+unicode-range 	font-face
+units-per-em 	font-face
+v-alphabetic 	font-face
+v-hanging 	font-face
+v-ideographic 	font-face
+v-mathematical 	font-face
+values 	animate | animateColor | animateMotion | animateTransform
+vector-effect 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use
+version 	svg
+vert-adv-y 	font | glyph | missing-glyph
+vert-origin-x 	font | glyph | missing-glyph
+vert-origin-y 	font | glyph | missing-glyph
+viewBox 	page | svg
+visibility 	a | circle | defs | ellipse | flowPara | flowRoot | flowSpan | font | foreignObject | g | glyph | image | line | missing-glyph | page | pageSet | path | polygon | polyline | rect | svg | switch | text | tspan | use | video
+width 	foreignObject | image | rect | svg | use | video
+widths 	font-face
+x 	foreignObject | image | rect | svg | text | use | video
+x-height 	font-face
+x1 	line | linearGradient
+x2 	line | linearGradient
+xlink:actuate 	a | audio | font-face-uri | foreignObject | image | mpath | prefetch | use | video
+xlink:href 	a | audio | font-face-uri | foreignObject | image | mpath | prefetch | use | video
+xlink:show 	a | audio | font-face-uri | foreignObject | image | mpath | prefetch | use | video
+xml:base 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | desc | ellipse | flowPara | flowRegion | flowRoot | flowSpan | font | font-face | font-face-name | font-face-src | font-face-uri | foreignObject | g | glyph | handler | hkern | image | line | linearGradient | metadata | missing-glyph | mpath | page | pageSet | path | polygon | polyline | prefetch | radialGradient | rect | script | set | solidColor | stop | svg | switch | text | title | transition | tspan | use | video
+xml:lang 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | desc | ellipse | flowPara | flowRegion | flowRoot | flowSpan | font | font-face | font-face-name | font-face-src | font-face-uri | foreignObject | g | glyph | handler | hkern | image | line | linearGradient | metadata | missing-glyph | mpath | page | pageSet | path | polygon | polyline | prefetch | radialGradient | rect | script | set | solidColor | stop | svg | switch | text | title | transition | tspan | use | video
+xml:space 	a | animate | animateColor | animateMotion | animateTransform | audio | circle | defs | desc | ellipse | flowPara | flowRegion | flowRoot | flowSpan | font | font-face | font-face-name | font-face-src | font-face-uri | foreignObject | g | glyph | handler | hkern | image | line | linearGradient | metadata | missing-glyph | mpath | page | pageSet | path | polygon | polyline | prefetch | radialGradient | rect | script | set | solidColor | stop | svg | switch | text | title | transition | tspan | use | video
+y 	foreignObject | image | rect | svg | text | use | video
+y1 	line | linearGradient
+y2 	line | linearGradient
+zoomAndPan 	svg
+

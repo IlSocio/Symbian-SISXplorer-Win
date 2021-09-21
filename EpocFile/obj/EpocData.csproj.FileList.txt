@@ -1,0 +1,11 @@
+bin\Debug\bw8bit.bmp
+bin\Debug\col8bit.bmp
+bin\Debug\EpocFile.dll
+bin\Debug\EpocFile.pdb
+bin\Debug\Utility.dll
+bin\Debug\Utility.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\EpocFile.dll
+obj\Debug\EpocFile.pdb
+bin\Debug\EncodingTools.dll
+bin\Debug\EncodingTools.pdb

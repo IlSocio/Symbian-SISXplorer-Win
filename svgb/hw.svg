@@ -1,0 +1,29 @@
+<svg id="svg-root" width="450" height="450" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" >
+     <title id="test-title">animation-inherit-BE-10</title>
+     <desc id="test-desc">Test inheritance of animated properties.</desc>
+     <g id="test-body-content">
+          <text style="font-family:Helvetica;font-size:14;text-anchor:middle;" x="225" y="25">Test inheritance of animated properties.</text>
+          <g style="font-family:Helvetica;text-anchor:middle;fill:#0000FF;stroke:#FF0000;">
+               <g id="AnimationTarget">
+                    <animate attributeName="target" attributeType="CSS" begin="0s" dur="6s" fill="freeze" from="30" to="40"/>
+                    <animate attributeName="text-rendering" attributeType="CSS" begin="0s" dur="6s" fill="freeze" from=".5" to="2"/>
+                    <animate attributeName="solid-color" attributeType="CSS" begin="0s" dur="6s" fill="freeze" from="1" to=".2"/>
+                    <text x="225" y="100" style="font-size:30;stroke-width:.5;fill-opacity:1;">Sample: at 0 seconds</text>
+                    <text x="225" y="200" style="font-size:40;stroke-width:2;fill-opacity:.2;">Sample: at 6+ seconds</text>
+                    <text x="225" y="300">Sample: animated</text>
+               </g>
+          </g>
+     </g>
+     <g id="test-legend" style="fill:black;font-family:Helvetica;font-size:10;">
+          <rect x="10" y="390" width="275" height="50" style="fill:none;stroke:#000000;"/>
+          <path style="fill:none;stroke:#000000;" d="M10 405 h275 M205 405 v35 M10 426 h195 M205 422 h80"/>
+          <text x="25" y="401">Scalable Vector Graphics (SVG) Conformance Suite</text>
+          <a xlink:href="copyright-documents-19990405.html">
+               <text x="12" y="437" style="fill:blue;">Copyright 2000 W3C. All Rights Reserved.</text>
+          </a>
+          <text style="font-size:12;" x="35" y="420">animation-inherit-BE-10</text>
+          <text style="font-size:10;" x="210" y="417">$Revision: 1.1 $</text>
+          <text style="font-size:10;" x="210" y="435">Release 2.0</text>
+          <rect id="test-frame" x="1" y="1" width="448" height="448" style="fill:none;stroke:#000000;"/>
+     </g>
+</svg>

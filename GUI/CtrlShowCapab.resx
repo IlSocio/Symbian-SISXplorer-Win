@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="checkBox20.ToolTip" xml:space="preserve">
+    <value>A user capability that grants access to remote services in the close 
+vicinity of the phone.
+
+The location of the remote service is well-known to the phone user, 
+and in most cases, such services will not incur cost for the phone user. </value>
+  </data>
+  <data name="checkBox19.ToolTip" xml:space="preserve">
+    <value>Grants access to live confidential information about the user and his/her 
+immediate environment. 
+This capability protect the user's privacy.
+
+Examples are audio, picture and video recording, biometrics 
+(such as blood pressure) recording.
+
+Please note that the location of the device is excluded from this capability. 
+The protection of this is achieved by using the dedicated capability Location</value>
+  </data>
+  <data name="checkBox18.ToolTip" xml:space="preserve">
+    <value>A user capability that grants read access to data that is confidential to the phone user.
+
+This capability supports the management of the user's privacy.
+
+Typically, contacts, messages and appointments are always seen user confidential data. </value>
+  </data>
+  <data name="checkBox16.ToolTip" xml:space="preserve">
+    <value>A user capability that grants access to remote services without any 
+restriction on its physical location.
+
+Typically, such a location is unknown to the phone user, and such services 
+may incur cost for the phone user.
+
+Voice calls, SMS, and internet services are good examples of such 
+network services. 
+They are supported by GSM, CDMA and all IP transport protocols including 
+Bluetooth profiles over IP. </value>
+  </data>
+  <data name="checkBox17.ToolTip" xml:space="preserve">
+    <value>A user capability that grants write access to user data.
+
+This capability supports the management of the integrity of user data.
+
+Note that this capability is not symmetric with the 
+ECapabilityReadUserData capability. 
+For example, you may want to prevent rogue applications from deleting 
+music tracks but you may not want to restrict read access to them. </value>
+  </data>
+  <data name="checkBox10.ToolTip" xml:space="preserve">
+    <value>Grants the right to create a trusted UI session, and therefore to 
+display dialogs in a secure UI environment.
+
+Trusted UI dialogs are rare. They must be used only when 
+confidentiality and security are critical; for example, for password 
+dialogs.
+
+Normal access to the user interafce and the screen does not require 
+this capability. </value>
+  </data>
+  <data name="checkBox12.ToolTip" xml:space="preserve">
+    <value>Grants the right to generate software key &amp; pen events, and to capture 
+any of them regardless of the status of the application.
+
+Note that after obtaining the focus, normal applications do not need 
+this capability to be dispatched key and pen events. </value>
+  </data>
+  <data name="checkBox13.ToolTip" xml:space="preserve">
+    <value>Grants the right to a server to register with a protected name.
+
+Currently, protected names start with a "!" character. 
+The kernel prevents servers without this capability from using 
+such a name, and therefore prevents protected servers from being 
+impersonated. </value>
+  </data>
+  <data name="checkBox15.ToolTip" xml:space="preserve">
+    <value>Grants access to logical device drivers that provide input information about the 
+surroundings of the device.
+
+Good examples of drivers that require this capability would be GPS and bionetrics 
+device drivers. 
+For complex multimedia logical device drivers that provide both input and output 
+functions, such as Sound device driver, the MultimediaDD capability should be 
+used if it is too difficult to separate the input from the ouput calls at its API level.</value>
+  </data>
+  <data name="checkBox14.ToolTip" xml:space="preserve">
+    <value>Grants the right:
+
+# to kill any process in the system
+# to power off unused peripherals
+# to switch the machine into standby state
+# to wake the machine up
+# to power the machine down completely.
+
+Note that this does not control access to anything and everything that might 
+drain battery power.</value>
+  </data>
+  <data name="checkBox4.ToolTip" xml:space="preserve">
+    <value>Grants the right to modify or access network protocol controls.
+
+Typically when an action can change the behaviour of all existing and 
+future connections, it should be protected by this capability.
+
+For example, forcing all existing connections on a specific protocol to 
+be dropped, or changing the priority of a call. </value>
+  </data>
+  <data name="checkBox21.ToolTip" xml:space="preserve">
+    <value>Grants write access to executables and shared read-only resources.
+
+This is the most critical capability as it grants access to executables 
+and therefore to their capabilities. 
+It also grants write access to the /sys and /resource directories.</value>
+  </data>
+  <data name="checkBox22.ToolTip" xml:space="preserve">
+    <value>Grants write access to executables and shared read-only resources.
+
+This is the most critical capability as it grants access to executables 
+and therefore to their capabilities. 
+It also grants write access to the /sys and /resource directories.</value>
+  </data>
+</root>

@@ -1,0 +1,5 @@
+bin\Debug\EpocFile.dll
+bin\Debug\EpocFile.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\EpocFile.dll
+obj\Debug\EpocFile.pdb

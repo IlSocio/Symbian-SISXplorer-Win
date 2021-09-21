@@ -1,0 +1,5 @@
+bin\Debug\EncodingTools.dll
+bin\Debug\EncodingTools.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\EncodingTools.dll
+obj\Debug\EncodingTools.pdb

@@ -1,0 +1,14 @@
+C:\online\SisXplorer\svgb\Decoder\test\obj\Debug\test.exe
+C:\online\SisXplorer\svgb\Decoder\test\obj\Debug\test.pdb
+C:\online\SisXplorer\svgb\Decoder\test\obj\Debug\ResolveAssemblyReference.cache
+C:\online\SisXplorer\svgb\Decoder\test\obj\Debug\test.Form1.resources
+C:\online\SisXplorer\svgb\Decoder\test\obj\Debug\test.Properties.Resources.resources
+C:\online\SisXplorer\svgb\Decoder\test\obj\Debug\test.csproj.GenerateResource.Cache
+C:\online\SisXplorer\svgb\Decoder\test\bin\Debug\bw8bit.bmp
+C:\online\SisXplorer\svgb\Decoder\test\bin\Debug\col8bit.bmp
+C:\online\SisXplorer\svgb\Decoder\test\bin\Debug\test.exe
+C:\online\SisXplorer\svgb\Decoder\test\bin\Debug\test.pdb
+C:\online\SisXplorer\svgb\Decoder\test\bin\Debug\EpocFile.dll
+C:\online\SisXplorer\svgb\Decoder\test\bin\Debug\Utility.dll
+C:\online\SisXplorer\svgb\Decoder\test\bin\Debug\EpocFile.pdb
+C:\online\SisXplorer\svgb\Decoder\test\bin\Debug\Utility.pdb

@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Decoder.Form1.resources
+obj\Debug\Decoder.Properties.Resources.resources
+obj\Debug\Decoder.csproj.GenerateResource.Cache
+bin\Debug\Decoder.exe
+bin\Debug\Decoder.pdb
+obj\Debug\Decoder.exe
+obj\Debug\Decoder.pdb
